@@ -1,0 +1,236 @@
+/* ******************************** */
+            /* Global Section */
+/* ******************************** */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #575757
+}
+h1{
+    font-size: 42px;
+    line-height:52px;
+    font-weight:700;
+}
+h2{
+    font-size: 32px;
+    line-height:42px;
+    font-weight:700;
+}
+h3{
+    font-size: 25px;
+    line-height:35px;
+    font-weight:700;
+}
+h4{
+    font-size: 20px;
+    line-height:30px;
+    font-weight:700;
+}
+p{  
+    font-size:18px;
+    line-height:28px;
+    font-weight: 400;
+    color: #828282;
+}
+.half-width{
+    width: 45%;
+    margin-left: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(50deg, #FFA451, #FF1E1E);
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size:15px;
+    color: #fff;
+}
+.highlight-color{
+    color: #FBA24F;
+}
+/* ******************************** */
+            /* header-section */
+/* ******************************** */
+.header-section{
+    padding-bottom: 80px;
+    background-image: url(Images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 90% 80%;
+}
+.menu-section{
+    display: flex;
+}
+.menu-section h4{
+    margin-top:12px
+}
+.menu-section ul{
+    text-align: right;
+}
+.menu-section ul li{
+    list-style: none;
+    display: inline;
+}
+.menu-section ul li a{
+    text-decoration:none;
+    padding-right: 40px;
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+}
+.banner-img{
+    text-align: center;
+}
+.banner-img img{
+    width: 90%;
+}
+
+.banner h1{
+    margin-top: 120px;
+}
+.banner p{
+    margin-bottom: 60px;
+}
+/* ******************************** */
+            /* about-section */
+/* ******************************** */
+.about-section{
+    padding: 80px 0px;
+    background-image: url(Images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+.about{
+    text-align: center;
+}
+.about img{
+    width: 49.5%;
+}
+.about-section h2{
+    margin-top: 10px;
+}
+.about-section p{
+    margin-bottom: 60px;
+    text-align: justify;
+}
+/* ******************************** */
+            /* recipes-section */
+/* ******************************** */
+.recipes-section{
+    padding-bottom: 80px;
+}
+.recipes-title{
+    text-align: center;
+    margin-bottom:60px;
+}
+.recipes{
+    display: flex;
+}
+.recipes-inner{
+    width: 26%;
+    margin-left: 3.33%;
+    padding: 20px;
+    border-radius:40px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, .25);
+    margin-bottom: 70px;
+}
+.recipes-img{
+    width: 100%;
+    border-radius:20px
+}
+.recipes-img img{
+    width:100%
+}
+/* ******************************** */
+            /* footer-section */
+/* ******************************** */
+.meals-section{
+    padding: 80px 0px 120px;
+    text-align: center;
+    background-image: url(images/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meals-section h3{
+    margin-bottom: 60px;
+}
+.meals{
+    display:flex;
+}
+.meals-inner{
+    width: 33.33%;
+    margin-bottom: 70px;
+}
+.meals-inner img{
+    width: 90%
+}
+/* ******************************** */
+            /* media-section */
+/* ******************************** */
+.media-section{
+    width: 100%;
+    margin: 0 auto;
+    padding:80px 0px;
+}
+.media{
+   width: 93%;
+   height: 200px;
+   margin: 0 auto;
+   display: flex;
+   box-shadow: 0 5px 14px rgba(0, 0, 0, .25);
+}
+.media-inner{
+    width: 30%;
+    margin-left: 3.33%;
+    text-align: center;
+    margin-top: 20px; 
+}
+/* ******************************** */
+            /* contact-section */
+/* ******************************** */
+.contact-section{
+    padding:80px 0px 100px;
+    background-image: url(images/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    margin-left: 32%;
+}
+.contact form{
+    margin-bottom: 30px;
+}
+.contact input{
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 450px;
+    text-indent: 7px;
+    font-size: 15px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.contact .btn{
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .25);
+}
+/* ******************************** */
+            /* footer-section */
+/* ******************************** */
+footer{
+    padding: 80px 0px;
+    text-align: center;
+    background-color: #0B0D17
+}
+footer p{
+    color: #fff !important
+}
