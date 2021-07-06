@@ -53,46 +53,20 @@ p{
             /* header-section */
 /* ******************************** */
 .header-section{
-    padding-bottom: 80px;
+    padding: 80px 0px;
     background-image: url(images/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: 15%;
-    background-position: 90% 80%;
-}
-.menu-section{
+    background-position: 88% 78%;
     display: flex;
 }
-.menu-section h4{
-    margin-top:12px
-}
-.menu-section ul{
-    text-align: right;
-}
-.menu-section ul li{
-    list-style: none;
-    display: inline;
-}
-.menu-section ul li a{
-    text-decoration:none;
-    padding-right: 40px;
-}
-
-/* banner section */
-
-.banner{
-    display: flex;
-}
-.banner-img{
-    text-align: center;
-}
-.banner-img img{
+.header-section img{
     width: 90%;
 }
-
-.banner h1{
+.header-section h1{
     margin-top: 120px;
 }
-.banner p{
+.header-section p{
     margin-bottom: 60px;
 }
 /* ******************************** */
@@ -116,7 +90,6 @@ p{
 }
 .about-section p{
     margin-bottom: 60px;
-    text-align: justify;
 }
 /* ******************************** */
             /* recipes-section */
@@ -147,7 +120,7 @@ p{
     width:100%
 }
 /* ******************************** */
-            /* footer-section */
+            /* meals-section*/
 /* ******************************** */
 .meals-section{
     padding: 80px 0px 120px;
